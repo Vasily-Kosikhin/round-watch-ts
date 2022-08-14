@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+.clock {
+  min-width: 400px;
+  min-height: 400px;
+  border-radius: 50%;
+  outline: 2px solid black;
+
+  position: relative;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
+  background-image: url('https://kartinkin.net/uploads/posts/2022-03/1647029748_19-kartinkin-net-p-tsiferblat-chasov-bez-strelok-kartinki-21.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.clock__secondArrow {
+  width: 24px;
+  height: 400px;
+  position: absolute;
+  left: 188px;
+
+  rotate: 0deg;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  z-index: 200;
+}
+
+.clock__secondArrow_body {
+  width: 24px;
+  margin-top: 40px;
+  height: 220px;
+
+  background-image: url('https://i.imgur.com/Hl60J60.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.clock__minuteArrow {
+  width: 24px;
+  height: 400px;
+  position: absolute;
+  left: 188px;
+
+  rotate: 0deg;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.clock__minuteArrow_body {
+  width: 24px;
+  height: 180px;
+  margin-top: 31px;
+  background-image: url('https://i.imgur.com/Uzre22R.png');
+}
+
+.clock__hourArrow {
+  width: 24px;
+  height: 400px;
+  position: absolute;
+  left: 188px;
+
+  rotate: 0deg;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.clock__hourArrow_body {
+  width: 24px;
+  height: 140px;
+  margin-top: 72px;
+  background-image: url('https://i.imgur.com/RfGZF0C.png');
+}
